@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.29.0-alpine3.22-slim
 LABEL version="0.0.1-SNAPSHOT"
 LABEL description="XM^online webapp"
 MAINTAINER Ihor Shkurko <ishkurko@gmail.com>
